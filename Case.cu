@@ -387,9 +387,13 @@ static __global__ void _d2DSharedSequentialKer(Data2D data2D, DATA_TYPE* dev_out
     for (int i = 0; i < copy_num_per_thread; ++i) {
         // 计算要拷贝数据的下标
         int copt_index = index * copy_num_per_thread + i;
-        if (copt_index < size)
+        if (copt_index < size) {
             // 又要考虑溢出问题……
-            sharedData[copt_index] = data2D.data[(r + (c+i) / data2D.rows) * data2D.pitchBytes + (c+i) % data2D.cols];
+            r = r + (c+i) / data2D.cols;
+            if (r >= data2D.rows)
+                r = data2D.rows - 1;
+            sharedData[copt_index] = data2D.data[r * data2D.pitchBytes + (c+i) % data2D.cols];
+        }
     }
     __syncthreads();
 
@@ -414,9 +418,13 @@ static __global__ void _d2DSharedStepKer(Data2D data2D, DATA_TYPE* dev_out, int 
     for (int i = 0; i < copy_num_per_thread; ++i) {
         // 计算要拷贝数据的下标
         int copt_index = index * copy_num_per_thread + i;
-        if (copt_index < size)
+        if (copt_index < size) {
             // 又要考虑溢出问题……
-            sharedData[copt_index] = data2D.data[(r + (c+i) / data2D.rows) * data2D.pitchBytes + (c+i) % data2D.cols];
+            r = r + (c+i) / data2D.cols;
+            if (r >= data2D.rows)
+                r = data2D.rows - 1;
+            sharedData[copt_index] = data2D.data[r  * data2D.pitchBytes + (c+i) % data2D.cols];
+        }
     }
     __syncthreads();
 
@@ -441,9 +449,13 @@ static __global__ void _d2DSharedCommonKer(Data2D data2D, DATA_TYPE* dev_out, in
     for (int i = 0; i < copy_num_per_thread; ++i) {
         // 计算要拷贝数据的下标
         int copt_index = index * copy_num_per_thread + i;
-        if (copt_index < size)
+        if (copt_index < size) {
             // 又要考虑溢出问题……
-            sharedData[copt_index] = data2D.data[(r + (c+i) / data2D.rows) * data2D.pitchBytes + (c+i) % data2D.cols];
+            r = r + (c+i) / data2D.cols;
+            if (r >= data2D.rows)
+                r = data2D.rows - 1;
+            sharedData[copt_index] = data2D.data[r * data2D.pitchBytes + (c+i) % data2D.cols];
+        }
     }
     __syncthreads();
 
@@ -455,7 +467,7 @@ static __global__ void _d2DSharedCommonKer(Data2D data2D, DATA_TYPE* dev_out, in
         r = temp_am_data / data2D.rows;
         if (r >= data2D.rows)
             r = data2D.rows - 1;
-        dev_out[index] += sharedData[r * data2D.pitchBytes + c];
+        dev_out[index] += sharedData[r * data2D.cols + c];
     }
 }
 /*
@@ -536,12 +548,10 @@ static __global__ void _treeGloalSequentialKer(Tree tree, int am_num, DATA_TYPE*
     if (index >= tree.num)
         return ;
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = (index + i) * 2 % tree.num + 1;
-        if (tempindex < tree.num && tree.nodes[tempindex].left != NULL) 
-            dev_out[index] += tree.nodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += tree.nodes[tempindex % tree.num].data;
         tempindex ++;
-        if (tempindex < tree.num && tree.nodes[tempindex].right != NULL) 
-            dev_out[index] += tree.nodes[tempindex].right->data;      
+        dev_out[index] += tree.nodes[tempindex % tree.num].data;     
     }
 }
 static __global__ void _treeGloalStepKer(Tree tree, int step, int am_num, DATA_TYPE* dev_out)
@@ -551,12 +561,10 @@ static __global__ void _treeGloalStepKer(Tree tree, int step, int am_num, DATA_T
     if (index >= tree.num)
         return ;
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = (index + i * step) * 2 % tree.num + 1;
-        if (tempindex < tree.num && tree.nodes[tempindex].left != NULL) 
-            dev_out[index] += tree.nodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += tree.nodes[tempindex % tree.num].data;
         tempindex ++;
-        if (tempindex < tree.num && tree.nodes[tempindex].right != NULL) 
-            dev_out[index] += tree.nodes[tempindex].right->data;     
+        dev_out[index] += tree.nodes[tempindex % tree.num].data;     
     }
 }
 static __global__ void _treeGloalCommonKer(Tree tree, int am_num, DATA_TYPE* dev_out, int* am_data)
@@ -566,12 +574,10 @@ static __global__ void _treeGloalCommonKer(Tree tree, int am_num, DATA_TYPE* dev
     if (index >= tree.num)
         return ;
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = am_data[(index + i) % tree.num] * 2 % tree.num + 1;
-        if (tempindex < tree.num && tree.nodes[tempindex].left != NULL) 
-            dev_out[index] += tree.nodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += tree.nodes[tempindex % tree.num].data;
         tempindex ++;
-        if (tempindex < tree.num && tree.nodes[tempindex].right != NULL) 
-            dev_out[index] += tree.nodes[tempindex].right->data;     
+        dev_out[index] += tree.nodes[tempindex % tree.num].data;     
     }
 }
 
@@ -597,12 +603,10 @@ static __global__ void _treeSharedSequentialKer(Tree tree, int am_num, DATA_TYPE
     __syncthreads();
 
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = (index + i) * 2 % tree.num + 1;
-        if (tempindex < tree.num && sharedNodes[tempindex].left != NULL) 
-            dev_out[index] += sharedNodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += sharedNodes[tempindex % tree.num].data;
         tempindex ++;
-        if (tempindex < tree.num && sharedNodes[tempindex].right != NULL) 
-            dev_out[index] += sharedNodes[tempindex].right->data;     
+        dev_out[index] += sharedNodes[tempindex % tree.num].data;     
     }
 }
 static __global__ void _treeSharedStepKer(Tree tree, int step, int am_num, DATA_TYPE* dev_out, int copy_num_per_thread)
@@ -627,12 +631,10 @@ static __global__ void _treeSharedStepKer(Tree tree, int step, int am_num, DATA_
     __syncthreads();
 
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = (index + i * step) * 2 % tree.num + 1;
-        if (tempindex < tree.num && sharedNodes[tempindex].left != NULL) 
-            dev_out[index] += sharedNodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += sharedNodes[tempindex % tree.num].data;
         tempindex ++;
-        if (tempindex < tree.num && sharedNodes[tempindex].right != NULL) 
-            dev_out[index] += sharedNodes[tempindex].right->data;     
+        dev_out[index] += sharedNodes[tempindex % tree.num].data;     
     }
 }
 static __global__ void _treeSharedCommonKer(Tree tree, int am_num, DATA_TYPE* dev_out, int* am_data, int copy_num_per_thread)
@@ -657,12 +659,10 @@ static __global__ void _treeSharedCommonKer(Tree tree, int am_num, DATA_TYPE* de
     __syncthreads();
 
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = am_data[(index + i) % tree.num] * 2 % tree.num + 1;
-        if (tempindex < tree.num && sharedNodes[tempindex].left != NULL) 
-            dev_out[index] += sharedNodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += sharedNodes[tempindex % tree.num].data;
         tempindex ++;
-        if (tempindex < tree.num && sharedNodes[tempindex].right != NULL) 
-            dev_out[index] += sharedNodes[tempindex].right->data;     
+        dev_out[index] += sharedNodes[tempindex % tree.num].data;     
     }
 }
 
@@ -672,13 +672,12 @@ static __global__ void _treeConstantSequentialKer(int size, int am_num, DATA_TYP
     int index = blockIdx.x * blockDim.x + threadIdx.x;
     if (index >= size)
         return ;
+
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = (index + i) * 2 % size + 1;
-        if (tempindex < size && constant_treeNodes[tempindex].left != NULL) 
-            dev_out[index] += constant_treeNodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += constant_treeNodes[tempindex % size].data;
         tempindex ++;
-        if (tempindex < size && constant_treeNodes[tempindex].right != NULL) 
-            dev_out[index] += constant_treeNodes[tempindex].right->data;      
+        dev_out[index] += constant_treeNodes[tempindex % size].data;     
     }
 }
 static __global__ void _treeConstantStepKer(int size, int step, int am_num, DATA_TYPE* dev_out)
@@ -688,12 +687,10 @@ static __global__ void _treeConstantStepKer(int size, int step, int am_num, DATA
     if (index >= size)
         return ;
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = (index + i * step) * 2 % size + 1;
-        if (tempindex < size && constant_treeNodes[tempindex].left != NULL) 
-            dev_out[index] += constant_treeNodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += constant_treeNodes[tempindex % size].data;
         tempindex ++;
-        if (tempindex < size && constant_treeNodes[tempindex].right != NULL) 
-            dev_out[index] += constant_treeNodes[tempindex].right->data;      
+        dev_out[index] += constant_treeNodes[tempindex % size].data;     
     }
 }
 static __global__ void _treeConstantCommonKer(int size, int am_num, DATA_TYPE* dev_out, int* am_data)
@@ -703,12 +700,10 @@ static __global__ void _treeConstantCommonKer(int size, int am_num, DATA_TYPE* d
     if (index >= size)
         return ;
     for (int i = 0; i < am_num; ++i) {
-        int tempindex = am_data[(index + i) % size] * 2 % size + 1;
-        if (tempindex < size && constant_treeNodes[tempindex].left != NULL) 
-            dev_out[index] += constant_treeNodes[tempindex].left->data; 
+        int tempindex = (index + i) * 2 + 1;
+        dev_out[index] += constant_treeNodes[tempindex % size].data;
         tempindex ++;
-        if (tempindex < size && constant_treeNodes[tempindex].right != NULL) 
-            dev_out[index] += constant_treeNodes[tempindex].right->data;      
+        dev_out[index] += constant_treeNodes[tempindex % size].data;     
     }
 }
 
