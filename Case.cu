@@ -716,9 +716,17 @@ int Case::global_run()
     cudaError_t cuerrcode;
 
     // 申请device内存
-    DATA_TYPE *d_data1D;
+    DATA_TYPE *d_data1D = NULL;
     Data2D d_data2D;
+    d_data2D.data = NULL;
     Tree d_tree;  // 无参构造函数，没有申请节点空间
+    d_tree.nodes = NULL;
+
+    DATA_TYPE *dev_out1D = NULL;
+    DATA_TYPE *dev_out2D = NULL;
+    DATA_TYPE *dev_outTree = NULL;
+
+    int *dev_am_data = NULL;
 
     // 根据内部数据分布，申请空间并拷贝数据
     switch (this->df)
@@ -773,7 +781,6 @@ int Case::global_run()
     switch(this->df) {
     case df_1D:
     {
-        DATA_TYPE *dev_out1D;
         // 申请 out 数组空间
         cuerrcode = cudaMalloc((void**)&dev_out1D, sizeof(DATA_TYPE) * this->size);
         if (cuerrcode != cudaSuccess) {
@@ -836,7 +843,6 @@ int Case::global_run()
     }
     case df_2D:
     {
-        DATA_TYPE *dev_out2D;
         // 计算二维数组的大小，这里重新计算的是为了方式只测试二维数组时，成员变量size
         // 没有及时更新。
         unsigned int size_2D = d_data2D.cols * d_data2D.rows;
@@ -907,7 +913,6 @@ int Case::global_run()
         break;
     }
     case df_tree: {
-        DATA_TYPE *dev_outTree;
         cuerrcode = cudaMalloc((void**)&dev_outTree, sizeof(DATA_TYPE) * this->tree->num);
         if (cuerrcode != cudaSuccess) {
             cudaFree(d_tree.nodes);
@@ -939,7 +944,6 @@ int Case::global_run()
             }
         } else {
             // device 端访问下标数据
-            int *dev_am_data;
             cuerrcode = cudaMalloc((void**)&dev_am_data, sizeof(int) * this->size);
             if (cuerrcode != cudaSuccess) {
                 cudaFree(dev_outTree);
@@ -966,6 +970,23 @@ int Case::global_run()
         break;
     }
     }
+
+    if (d_data1D == NULL)
+        cudaFree(d_data1D);
+    if (d_data2D.data == NULL)
+        cudaFree(d_data2D.data);
+    if (d_tree.nodes == NULL)
+        cudaFree(d_tree.nodes);
+
+    if (dev_out1D == NULL)
+        cudaFree(dev_out1D);
+    if (dev_out2D == NULL)
+        cudaFree(dev_out2D);
+    if (dev_outTree == NULL)
+        cudaFree(dev_outTree);
+    if (dev_am_data == NULL)
+        cudaFree(dev_am_data);
+
     return 0;
 }
 
@@ -975,10 +996,19 @@ int Case::shared_run()
     cudaError_t cuerrcode;
 
     // 申请device内存
-    DATA_TYPE *d_data1D;
+    DATA_TYPE *d_data1D = NULL;
     Data2D d_data2D;
+    d_data2D.data = NULL;
     Tree d_tree;  // 无参构造函数，没有申请节点空间
+    d_tree.nodes = NULL;
     d_tree.num = this->size;
+
+
+    DATA_TYPE *dev_out1D = NULL;
+    DATA_TYPE *dev_out2D = NULL;
+    DATA_TYPE *dev_outTree = NULL;
+
+    int *dev_am_data = NULL;
 
     // 根据内部数据分布，申请空间并拷贝数据
     switch (this->df)
@@ -1031,7 +1061,6 @@ int Case::shared_run()
     // 根据数据形式和访问方式的不同执行不同的核函数
     switch(this->df) {
     case df_1D: {
-        DATA_TYPE *dev_out1D;
         // 申请 out 数组空间
         cuerrcode = cudaMalloc((void**)&dev_out1D, sizeof(DATA_TYPE) * this->size);
         if (cuerrcode != cudaSuccess) {
@@ -1097,7 +1126,6 @@ int Case::shared_run()
     }
     case df_2D: 
     {
-        DATA_TYPE *dev_out2D;
         // 计算二维数组的大小，这里重新计算的是为了方式只测试二维数组时，成员变量size
         // 没有及时更新。
         unsigned int size_2D = d_data2D.cols * d_data2D.rows;
@@ -1144,7 +1172,6 @@ int Case::shared_run()
             // 为了考虑性能测试统一，不使用curand。
             // 先在 host 端生成下标分布数据，然后再拷贝到 device 端。
             // device 端访问下标数据
-            int *dev_am_data;
             cuerrcode = cudaMalloc((void**)&dev_am_data, sizeof(int) * this->size);
             if (cuerrcode != cudaSuccess) {
                 cudaFree(d_data1D);
@@ -1172,7 +1199,6 @@ int Case::shared_run()
     }
     case df_tree: 
     {
-        DATA_TYPE *dev_outTree;
         cuerrcode = cudaMalloc((void**)&dev_outTree, sizeof(DATA_TYPE) * this->tree->num);
         if (cuerrcode != cudaSuccess) {
             cudaFree(d_tree.nodes);
@@ -1234,6 +1260,23 @@ int Case::shared_run()
         break;
     }
     }
+
+    if (d_data1D == NULL)
+        cudaFree(d_data1D);
+    if (d_data2D.data == NULL)
+        cudaFree(d_data2D.data);
+    if (d_tree.nodes == NULL)
+        cudaFree(d_tree.nodes);
+
+    if (dev_out1D == NULL)
+        cudaFree(dev_out1D);
+    if (dev_out2D == NULL)
+        cudaFree(dev_out2D);
+    if (dev_outTree == NULL)
+        cudaFree(dev_outTree);
+    if (dev_am_data == NULL)
+        cudaFree(dev_am_data);
+
     return 0;
 }
 

@@ -119,5 +119,8 @@ public:
 
 void print(DATA_TYPE* data_1D, int size);
 
+// warmup 函数，用于计时时 warmup GPU，实际是一个 vector 相加
+void warmup()
+
 
 #endif
