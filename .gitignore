@@ -1,4 +1,3 @@
 *.o
 main.cu
 Makefile
-*.txt
