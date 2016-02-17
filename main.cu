@@ -42,12 +42,14 @@ int main(int argc, char const *argv[])
     cudaEventCreate(&stop);
     cudaEventRecord(start, 0);
 
-    if (argv[2] == "Global:")
+    if (argv[2] == "Global:") {
         c.global_run();
-    else if (argv[2] == "Shared:")
+        cout << "c.global_run();" << endl;
+    } else if (argv[2] == "Shared:") {
         c.shared_run();
-    else if (argv[2] == "Constant:")
+    } else if (argv[2] == "Constant:"){
         c.constant_run();
+    }
 
     cudaEventRecord(stop, 0);
     cudaEventSynchronize(stop);
