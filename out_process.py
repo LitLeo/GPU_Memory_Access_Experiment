@@ -20,6 +20,15 @@ DESCRIPTION \n\
 EXAMPLE \n\
     python out_process.py -f 1D -l Global -s 1024 -a 2 -b 512 -c dc_random -m am_sequential -t 1"
 
+dicts = {}
+
+opts, args = getopt.getopt(sys.argv[1:], "f:l:s:a:b:c:m:t:", ["help"])
+for op, value in opts:
+    if op in ["--help", "--h"]:
+        usage()
+        exit(1)
+    dicts[op] = value
+
 class Case(object):
     """docstring for Case"""
     def __init__(self, df, ml, ds, anpt, bs, dc, am, rt):
@@ -40,7 +49,7 @@ class Case(object):
 # df_1D Global: size=512 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_sequential runTime=0.001664 ms
 all_case = []   
 
-file_buffer = open("1D_out.txt")
+file_buffer = open("out.txt")
 
 alllines = file_buffer.readlines()
 for line in alllines:
@@ -64,15 +73,6 @@ for line in alllines:
 file_buffer.close()
 
 # print len(all_case)
-
-dicts = {}
-
-opts, args = getopt.getopt(sys.argv[1:], "f:l:s:a:b:c:m:t:", ["help"])
-for op, value in opts:
-    if op in ["--help", "--h"]:
-        usage()
-        exit(1)
-    dicts[op] = value
 
 # print dicts
 for c in all_case:
