@@ -7,8 +7,8 @@ void generate_params()
     ofstream outfile("params.txt");
 
     // global 测试数据大小
-    const int global_size_num = 6; // 数组大小;
-    const int global_size[global_size_num] = {1024, 4096, 10240, 40960, 102400, 1024000};
+    const int global_size_num = 5; // 数组大小;
+    const int global_size[global_size_num] = {1024, 4096, 10240, 40960, 102400};
 
     // constant 和 
     // const int con_size_num = 4;

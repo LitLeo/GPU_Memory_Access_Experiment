@@ -1,9 +1,9 @@
 #!/bin/bash
 make -j4
 outfile='out.txt'
->$out
+>$outfile
 cat params.txt | while read line
 do
-    ./casexec $line | tee $out
+    ./casexec $line | tee -a  $outfile
 done
 

@@ -44,14 +44,14 @@ int main(int argc, char const *argv[])
     cudaEventRecord(start, 0);
 
     if (string(argv[2]) == "Global:") {
-        // c.global_run();
-        cout << "c.global_run();" << endl;
+         c.global_run();
+        /*cout << "c.global_run();" << endl;*/
     } else if (string(argv[2]) == "Shared:") {
-        // c.shared_run();
-        cout << "c.shared_run();" << endl;
+         c.shared_run();
+        /*cout << "c.shared_run();" << endl;*/
     } else if (string(argv[2]) == "Constant:"){
-        // c.constant_run();
-        cout << "c.constant_run();" << endl;
+         c.constant_run();
+        /*cout << "c.constant_run();" << endl;*/
     }
 
     cudaEventRecord(stop, 0);
