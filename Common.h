@@ -109,8 +109,8 @@ public:
     }
     ~Tree()
     {
-        if (this->nodes != NULL)
-            free(this->nodes);
+        //if (this->nodes != NULL)
+            //free(this->nodes);
     }
 
     Node *nodes;

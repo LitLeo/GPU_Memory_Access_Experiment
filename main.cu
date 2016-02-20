@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
     if (c.am == am_step)
         c.step = atoi(argv[index ++]);
     
-    c.print();
+    /*c.print();*/
 
     warmup();
     c.initData();
@@ -59,8 +59,8 @@ int main(int argc, char const *argv[])
     cudaEventSynchronize(stop);
     cudaEventElapsedTime(&runTime, start, stop);
 
-    cout<<endl<<EnumToString(c.df)
-        << " Global:"
+    cout<<endl<<EnumToString(c.df) << " " 
+        << argv[2] 
         <<" size="<< c.size;
         if (c.df == df_2D)
             cout<<" r=" << c.r
