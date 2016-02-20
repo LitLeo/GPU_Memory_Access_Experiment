@@ -11,7 +11,7 @@ def usage():
 DESCRIPTION \n\
     -f     1D,2D,tree \n\
     -l     Global, Shared, Constant \n\
-    -s     global_memory[1024,4096,10240,40960,102400,1024000],shared_memory[512, 1024, 4096, 10240] \n\
+    -s     global_memory[1024,4096,10240,40960,102400],shared_memory[512, 1024, 4096, 10240] \n\
     -a     1, 2, 4 \n\
     -b     256, 512, 1024 \n\
     -c     dc_random, dc_standard_normal, dc_poisson, dc_uniform, dc_geometric, dc_exponential \n\
