@@ -34,6 +34,7 @@ int main(int argc, char const *argv[])
     if (c.am == am_step)
         c.step = atoi(argv[index ++]);
     
+    c.print();
 
     warmup();
     c.initData();

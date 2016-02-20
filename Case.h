@@ -35,6 +35,22 @@ public:
         this->host_am_data = NULL;
     }
 
+    void print()
+    {
+        cout<<endl<<EnumToString(this->df)
+        << " Global:"
+        <<" size="<< this->size;
+        if (this->df == df_2D)
+            cout<<" r=" << this->r
+            <<",c=" << this->c;
+        cout<<" access_num_per_thread=" << this->am_num
+        <<" block_size="<<this->block_size
+        <<" data_content="<< EnumToString(this->dc)
+        <<" access_mode="<<EnumToString(this->am);
+        if (this->am == am_step)
+            cout << " step=" << this->step;
+    }
+
     ~Case()
     {
         //if (this->data1D != NULL)
