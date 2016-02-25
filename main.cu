@@ -20,7 +20,10 @@ int main(int argc, char const *argv[])
     unsigned int index = 1;
     c.df = (enum data_form)atoi(argv[index ++]);
     index ++;
-    c.size = atoi(argv[index ++]);
+    if (string(argv[2]) == "Constant:")
+        c.size = CONSTANT_SIZE;
+    else 
+        c.size = atoi(argv[index ++]);
     if (c.df == df_2D) {
         c.c = atoi(argv[index ++]);  
         c.r = atoi(argv[index ++]); 
@@ -33,9 +36,20 @@ int main(int argc, char const *argv[])
       
     if (c.am == am_step)
         c.step = atoi(argv[index ++]);
-    
-    /*c.print();*/
 
+    cout<<endl<<EnumToString(c.df) << " " 
+        << argv[2] 
+        <<" size="<< c.size;
+        if (c.df == df_2D)
+            cout<<" r=" << c.r
+            <<",c=" << c.c;
+        cout<<" access_num_per_thread=" << c.am_num
+        <<" block_size="<<c.block_size
+        <<" data_content="<< EnumToString(c.dc)
+        <<" access_mode="<<EnumToString(c.am);
+        if (c.am == am_step)
+            cout << " step=" << c.step;
+    
     warmup();
     c.initData();
     float runTime = 0.0f;
@@ -59,18 +73,7 @@ int main(int argc, char const *argv[])
     cudaEventSynchronize(stop);
     cudaEventElapsedTime(&runTime, start, stop);
 
-    cout<<endl<<EnumToString(c.df) << " " 
-        << argv[2] 
-        <<" size="<< c.size;
-        if (c.df == df_2D)
-            cout<<" r=" << c.r
-            <<",c=" << c.c;
-        cout<<" access_num_per_thread=" << c.am_num
-        <<" block_size="<<c.block_size
-        <<" data_content="<< EnumToString(c.dc)
-        <<" access_mode="<<EnumToString(c.am);
-        if (c.am == am_step)
-            cout << " step=" << c.step;
+    
     cout << " runTime=" << (runTime)  << " ms" << endl;
     
 
