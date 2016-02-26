@@ -4,6 +4,7 @@
 #include "Distribution.h"
 
 const unsigned int CONSTANT_SIZE = 512;
+const unsigned int CONSTANT_2D_ROW = 256;
 
 // 核心组织类
 // 在该类中，定义了不同的数据结构形式，不同的访问方式，不同的内存以及不同的线程数目

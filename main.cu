@@ -7,12 +7,6 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    // for (int i = 0; i < argc; ++i)
-    // {
-    //     cout << argv[i] << " ";
-    // }
-    // cout << endl;
-    // return 0;
     /*generate_params();*/
     /*return 0;*/
 
@@ -25,8 +19,13 @@ int main(int argc, char const *argv[])
     else 
         c.size = atoi(argv[index ++]);
     if (c.df == df_2D) {
-        c.c = atoi(argv[index ++]);  
-        c.r = atoi(argv[index ++]); 
+        if (string(argv[2]) != "Constant:") {
+            c.c = atoi(argv[index ++]);  
+            c.r = atoi(argv[index ++]); 
+        } else {
+            c.c = CONSTANT_SIZE / CONSTANT_2D_ROW;  
+            c.r = CONSTANT_2D_ROW; 
+        }
     }
     c.am_num = atoi(argv[index ++]);
     c.block_size = atoi(argv[index ++]);

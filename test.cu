@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
+#define DATA_TYPE unsigned char
 
 /* 树节点 */ 
 class Node
