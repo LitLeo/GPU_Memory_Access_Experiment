@@ -3,7 +3,7 @@
 
 #include "Distribution.h"
 
-const unsigned int CONSTANT_SIZE = 512;
+const unsigned int CONSTANT_SIZE = 2048;
 const unsigned int CONSTANT_2D_ROW = 256;
 
 // 核心组织类

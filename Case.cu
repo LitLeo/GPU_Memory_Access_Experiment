@@ -5,9 +5,12 @@
 #define DEF_BLOCK_Y   8
 
 // 全局内容的大小必须提前设置，对于不同数据大小的测试只能一次次手动改了
-__constant__ DATA_TYPE constant_data1D[CONSTANT_SIZE];
-__constant__ DATA_TYPE constant_data2D[CONSTANT_SIZE/CONSTANT_2D_ROW][CONSTANT_2D_ROW];
+__constant__ DATA_TYPE constant_data1D[1];
+/*__constant__ DATA_TYPE constant_data1D[CONSTANT_SIZE];*/
+__constant__ DATA_TYPE constant_data2D[1][1];
+/*__constant__ DATA_TYPE constant_data2D[CONSTANT_SIZE/CONSTANT_2D_ROW][CONSTANT_2D_ROW];*/
 // 每个 node 的大小为 12 B，所以在设置大小时一定要注意不能超过 constant memory 的大小
+/*__constant__ Node constant_treeNodes[1];*/
 __constant__ Node constant_treeNodes[CONSTANT_SIZE];
 
 // 根据数据组织形式、数据大小和数据内容形式初始化数据
