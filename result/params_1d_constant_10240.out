@@ -1,0 +1,970 @@
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_sequential runTime=0.12272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_sequential runTime=0.123584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_sequential runTime=0.131264 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_sequential runTime=0.127712 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_sequential runTime=0.123552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_sequential runTime=0.12848 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_sequential runTime=0.120544 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_sequential runTime=0.12256 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_sequential runTime=0.131136 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_step step=1 runTime=0.122912 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_step step=2 runTime=0.125696 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_step step=4 runTime=0.12128 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_step step=1 runTime=0.1232 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_step step=2 runTime=0.130656 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_step step=4 runTime=0.12784 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_step step=1 runTime=0.132192 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_step step=2 runTime=0.135424 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_step step=4 runTime=0.132928 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_step step=1 runTime=0.122432 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_step step=2 runTime=0.12128 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_step step=4 runTime=0.121056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_step step=1 runTime=0.124512 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_step step=2 runTime=0.126208 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_step step=4 runTime=0.13056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_step step=1 runTime=0.136128 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_step step=2 runTime=0.126144 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_step step=4 runTime=0.168864 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_step step=1 runTime=0.126336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_step step=2 runTime=0.13136 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_step step=4 runTime=0.124704 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_step step=1 runTime=0.131968 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_step step=2 runTime=0.123456 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_step step=4 runTime=0.166496 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_step step=1 runTime=0.127648 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_step step=2 runTime=0.135904 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_step step=4 runTime=0.127328 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_random runTime=0.235008 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_random runTime=0.238272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_random runTime=0.2576 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_random runTime=0.234432 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_random runTime=0.239104 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_random runTime=0.253184 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_random runTime=0.234592 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_random runTime=0.250624 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_random runTime=0.245696 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_standard_normal runTime=0.245792 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_standard_normal runTime=0.248128 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_standard_normal runTime=0.254336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_standard_normal runTime=0.244832 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_standard_normal runTime=0.250432 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_standard_normal runTime=0.255168 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_standard_normal runTime=0.245792 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_standard_normal runTime=0.24992 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_standard_normal runTime=0.275264 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_poisson runTime=0.233088 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_poisson runTime=0.236992 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_poisson runTime=0.237568 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_poisson runTime=0.245824 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_poisson runTime=0.24032 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_poisson runTime=0.243872 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_poisson runTime=0.233408 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_poisson runTime=0.237696 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_poisson runTime=0.240608 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_geometric runTime=0.244928 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_geometric runTime=0.241504 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_geometric runTime=0.238656 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_geometric runTime=0.231904 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_geometric runTime=0.233184 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_geometric runTime=0.238176 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_geometric runTime=0.237952 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_geometric runTime=0.237472 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_geometric runTime=0.249984 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_exponential runTime=0.24416 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_exponential runTime=0.27472 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_exponential runTime=0.241696 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_exponential runTime=0.23792 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_exponential runTime=0.236192 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_exponential runTime=0.244544 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_exponential runTime=0.249152 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_exponential runTime=0.243648 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_exponential runTime=0.239968 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_sequential runTime=0.13424 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_sequential runTime=0.134336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_sequential runTime=0.137472 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_sequential runTime=0.12592 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_sequential runTime=0.127776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_sequential runTime=0.135168 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_sequential runTime=0.127648 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_sequential runTime=0.134944 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_sequential runTime=0.138912 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.131808 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.124704 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.131392 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.128928 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.126336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.133504 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.130432 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.130848 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.138016 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.125056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.12512 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.127232 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.127584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.13344 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.128544 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.132992 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.133632 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.13136 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.132928 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.13232 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.12704 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.134016 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.135072 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.127552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.137792 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.137632 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.137504 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_random runTime=0.24064 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_random runTime=0.24048 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_random runTime=0.249216 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_random runTime=0.248288 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_random runTime=0.25584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_random runTime=0.249248 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_random runTime=0.2352 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_random runTime=0.25168 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_random runTime=0.318912 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.250464 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.247808 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.251072 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.246912 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.2552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.253216 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.269408 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.25952 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.259872 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_poisson runTime=0.23648 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_poisson runTime=0.240704 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_poisson runTime=0.25744 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_poisson runTime=0.237056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_poisson runTime=0.237248 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_poisson runTime=0.25376 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_poisson runTime=0.237504 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_poisson runTime=0.24128 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_poisson runTime=0.25296 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_geometric runTime=0.24576 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_geometric runTime=0.247328 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_geometric runTime=0.254688 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_geometric runTime=0.237728 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_geometric runTime=0.249664 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_geometric runTime=0.255584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_geometric runTime=0.23776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_geometric runTime=0.238048 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_geometric runTime=0.246624 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_exponential runTime=0.236032 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_exponential runTime=0.2376 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_exponential runTime=0.253952 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_exponential runTime=0.242464 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_exponential runTime=0.245152 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_exponential runTime=0.242016 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_exponential runTime=0.235328 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_exponential runTime=0.241824 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_exponential runTime=0.243392 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_sequential runTime=0.124 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_sequential runTime=0.130528 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_sequential runTime=0.137728 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_sequential runTime=0.12224 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_sequential runTime=0.125984 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_sequential runTime=0.171424 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_sequential runTime=0.131776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_sequential runTime=0.126976 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_sequential runTime=0.12704 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_step step=1 runTime=0.124736 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_step step=2 runTime=0.125184 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_step step=4 runTime=0.140896 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_step step=1 runTime=0.125248 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_step step=2 runTime=0.124256 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_step step=4 runTime=0.123392 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_step step=1 runTime=0.129504 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_step step=2 runTime=0.12864 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_step step=4 runTime=0.129056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_step step=1 runTime=0.124672 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_step step=2 runTime=0.122336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_step step=4 runTime=0.122976 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_step step=1 runTime=0.126656 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_step step=2 runTime=0.12592 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_step step=4 runTime=0.126752 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_step step=1 runTime=0.127488 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_step step=2 runTime=0.128256 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_step step=4 runTime=0.12672 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_step step=1 runTime=0.122528 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_step step=2 runTime=0.131584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_step step=4 runTime=0.12544 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_step step=1 runTime=0.124608 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_step step=2 runTime=0.127328 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_step step=4 runTime=0.125888 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_step step=1 runTime=0.13776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_step step=2 runTime=0.128736 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_step step=4 runTime=0.129824 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_random runTime=0.238368 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_random runTime=0.253056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_random runTime=0.247328 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_random runTime=0.234528 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_random runTime=0.241472 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_random runTime=0.243936 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_random runTime=0.238272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_random runTime=0.240704 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_random runTime=0.246656 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_standard_normal runTime=0.245632 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_standard_normal runTime=0.248832 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_standard_normal runTime=0.249888 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_standard_normal runTime=0.249184 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_standard_normal runTime=0.260256 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_standard_normal runTime=0.26544 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_standard_normal runTime=0.25904 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_standard_normal runTime=0.250944 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_standard_normal runTime=0.253632 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_poisson runTime=0.242272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_poisson runTime=0.237312 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_poisson runTime=0.239584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_poisson runTime=0.233376 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_poisson runTime=0.23744 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_poisson runTime=0.243008 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_poisson runTime=0.236288 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_poisson runTime=0.239104 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_poisson runTime=0.241536 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_geometric runTime=0.236 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_geometric runTime=0.236832 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_geometric runTime=0.241856 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_geometric runTime=0.237024 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_geometric runTime=0.251744 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_geometric runTime=0.24 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_geometric runTime=0.235776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_geometric runTime=0.236832 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_geometric runTime=0.242496 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_exponential runTime=0.237632 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_exponential runTime=0.237184 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_exponential runTime=0.241856 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_exponential runTime=0.233984 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_exponential runTime=0.235232 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_exponential runTime=0.237728 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_exponential runTime=0.236032 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_exponential runTime=0.237216 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_exponential runTime=0.240736 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_sequential runTime=0.12112 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_sequential runTime=0.123168 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_sequential runTime=0.127488 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_sequential runTime=0.121248 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_sequential runTime=0.123776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_sequential runTime=0.13216 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_sequential runTime=0.123776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_sequential runTime=0.12256 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_sequential runTime=0.131552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_step step=1 runTime=0.121024 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_step step=2 runTime=0.123488 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_step step=4 runTime=0.120672 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_step step=1 runTime=0.123552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_step step=2 runTime=0.125056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_step step=4 runTime=0.123584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_step step=1 runTime=0.126752 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_step step=2 runTime=0.127136 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_step step=4 runTime=0.135424 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_step step=1 runTime=0.121696 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_step step=2 runTime=0.125408 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_step step=4 runTime=0.156832 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_step step=1 runTime=0.122848 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_step step=2 runTime=0.121472 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_step step=4 runTime=0.123584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_step step=1 runTime=0.129984 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_step step=2 runTime=0.135296 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_step step=4 runTime=0.126272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_step step=1 runTime=0.157472 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_step step=2 runTime=0.1272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_step step=4 runTime=0.129344 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_step step=1 runTime=0.125504 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_step step=2 runTime=0.123424 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_step step=4 runTime=0.123648 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_step step=1 runTime=0.13568 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_step step=2 runTime=0.127584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_step step=4 runTime=0.132896 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_random runTime=0.249184 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_random runTime=0.235264 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_random runTime=0.24208 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_random runTime=0.235648 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_random runTime=0.237312 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_random runTime=0.25696 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_random runTime=0.2464 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_random runTime=0.240352 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_random runTime=0.247392 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_standard_normal runTime=0.246496 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_standard_normal runTime=0.266528 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_standard_normal runTime=0.251232 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_standard_normal runTime=0.245728 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_standard_normal runTime=0.246848 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_standard_normal runTime=0.272736 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_standard_normal runTime=0.250272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_standard_normal runTime=0.24576 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_standard_normal runTime=0.25536 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_poisson runTime=0.248288 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_poisson runTime=0.237984 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_poisson runTime=0.254784 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_poisson runTime=0.23392 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_poisson runTime=0.235712 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_poisson runTime=0.24176 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_poisson runTime=0.233856 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_poisson runTime=0.235328 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_poisson runTime=0.239904 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_geometric runTime=0.265792 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_geometric runTime=0.235936 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_geometric runTime=0.239552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_geometric runTime=0.249408 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_geometric runTime=0.236256 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_geometric runTime=0.276128 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_geometric runTime=0.231776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_geometric runTime=0.234976 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_geometric runTime=0.256096 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_exponential runTime=0.252032 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_exponential runTime=0.233248 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_exponential runTime=0.23824 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_exponential runTime=0.235584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_exponential runTime=0.236768 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_exponential runTime=0.254336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_exponential runTime=0.232384 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_exponential runTime=0.234496 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_exponential runTime=0.241728 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_sequential runTime=0.12144 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_sequential runTime=0.12528 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_sequential runTime=0.126304 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_sequential runTime=0.120864 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_sequential runTime=0.12288 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_sequential runTime=0.132768 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_sequential runTime=0.124 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_sequential runTime=0.123136 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_sequential runTime=0.126496 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_step step=1 runTime=0.12128 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_step step=2 runTime=0.121984 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_step step=4 runTime=0.126144 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_step step=1 runTime=0.128544 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_step step=2 runTime=0.122816 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_step step=4 runTime=0.126752 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_step step=1 runTime=0.125664 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_step step=2 runTime=0.165408 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_step step=4 runTime=0.125856 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_step step=1 runTime=0.121312 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_step step=2 runTime=0.127424 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_step step=4 runTime=0.12944 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_step step=1 runTime=0.122816 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_step step=2 runTime=0.124608 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_step step=4 runTime=0.129824 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_step step=1 runTime=0.132032 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_step step=2 runTime=0.13392 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_step step=4 runTime=0.147488 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_step step=1 runTime=0.130912 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_step step=2 runTime=0.12064 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_step step=4 runTime=0.121152 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_step step=1 runTime=0.124416 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_step step=2 runTime=0.130336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_step step=4 runTime=0.134304 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_step step=1 runTime=0.128224 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_step step=2 runTime=0.128992 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_step step=4 runTime=0.135168 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_random runTime=0.246912 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_random runTime=0.271648 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_random runTime=0.2552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_random runTime=0.246496 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_random runTime=0.246432 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_random runTime=0.244928 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_random runTime=0.23184 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_random runTime=0.244832 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_random runTime=0.2576 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_standard_normal runTime=0.260736 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_standard_normal runTime=0.249568 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_standard_normal runTime=0.251264 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_standard_normal runTime=0.278272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_standard_normal runTime=0.250336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_standard_normal runTime=0.262592 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_standard_normal runTime=0.25056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_standard_normal runTime=0.25328 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_standard_normal runTime=0.259264 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_poisson runTime=0.24544 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_poisson runTime=0.236544 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_poisson runTime=0.241088 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_poisson runTime=0.235872 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_poisson runTime=0.237856 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_poisson runTime=0.239744 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_poisson runTime=0.237568 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_poisson runTime=0.24832 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_poisson runTime=0.242592 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_geometric runTime=0.233248 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_geometric runTime=0.267104 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_geometric runTime=0.239264 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_geometric runTime=0.233568 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_geometric runTime=0.237312 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_geometric runTime=0.24224 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_geometric runTime=0.234976 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_geometric runTime=0.271488 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_geometric runTime=0.242368 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_exponential runTime=0.243552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_exponential runTime=0.237024 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_exponential runTime=0.240128 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_exponential runTime=0.23504 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_exponential runTime=0.278272 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_exponential runTime=0.2488 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_exponential runTime=0.240832 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_exponential runTime=0.271072 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_exponential runTime=0.251424 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_sequential runTime=0.128352 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_sequential runTime=0.12688 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_sequential runTime=0.129056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_sequential runTime=0.12752 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_sequential runTime=0.130784 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_sequential runTime=0.141408 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_sequential runTime=0.121856 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_sequential runTime=0.12416 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_sequential runTime=0.128384 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_step step=1 runTime=0.128416 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_step step=2 runTime=0.122656 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_step step=4 runTime=0.12896 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_step step=1 runTime=0.156608 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_step step=2 runTime=0.12336 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_step step=4 runTime=0.123712 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_step step=1 runTime=0.135296 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_step step=2 runTime=0.129088 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_step step=4 runTime=0.137568 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_step step=1 runTime=0.139712 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_step step=2 runTime=0.127808 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_step step=4 runTime=0.129792 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_step step=1 runTime=0.124768 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_step step=2 runTime=0.13264 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_step step=4 runTime=0.132096 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_step step=1 runTime=0.127776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_step step=2 runTime=0.135904 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_step step=4 runTime=0.126784 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_step step=1 runTime=0.121504 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_step step=2 runTime=0.130592 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_step step=4 runTime=0.131296 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_step step=1 runTime=0.130656 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_step step=2 runTime=0.145824 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_step step=4 runTime=0.125184 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_step step=1 runTime=0.133568 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_step step=2 runTime=0.136896 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_step step=4 runTime=0.135392 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_random runTime=0.235872 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_random runTime=0.27072 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_random runTime=0.255552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_random runTime=0.251936 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_random runTime=0.254944 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_random runTime=0.257792 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_random runTime=0.25104 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_random runTime=0.276256 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_random runTime=0.245152 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_standard_normal runTime=0.261152 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_standard_normal runTime=0.24576 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_standard_normal runTime=0.255584 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_standard_normal runTime=0.24784 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_standard_normal runTime=0.248352 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_standard_normal runTime=0.251552 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_standard_normal runTime=0.24592 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_standard_normal runTime=0.249888 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_standard_normal runTime=0.304864 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_poisson runTime=0.23056 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_poisson runTime=0.2368 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_poisson runTime=0.243968 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_poisson runTime=0.236032 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_poisson runTime=0.237088 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_poisson runTime=0.24528 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_poisson runTime=0.249248 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_poisson runTime=0.239872 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_poisson runTime=0.284096 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_geometric runTime=0.280352 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_geometric runTime=0.23648 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_geometric runTime=0.252256 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_geometric runTime=0.23472 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_geometric runTime=0.236512 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_geometric runTime=0.239776 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_geometric runTime=0.234208 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_geometric runTime=0.252896 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_geometric runTime=0.238784 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_exponential runTime=0.244992 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_exponential runTime=0.2352 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_exponential runTime=0.248736 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_exponential runTime=0.233856 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_exponential runTime=0.268448 ms
+
+df_1D Constant: size=10240 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_exponential runTime=0.250976 ms
+
+df_1D Constant: size=10240 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_exponential runTime=0.235264 ms
+
+df_1D Constant: size=10240 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_exponential runTime=0.235136 ms

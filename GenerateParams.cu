@@ -30,6 +30,9 @@ void generate_params()
     const int step_num = 3;
     const int step[step_num] = {1, 2, 4};
 
+    const int col_num = 2;
+    const int col[col_num] = {256, 512};
+/*
     // 1D Global
     for (int gs = 0; gs < global_size_num; gs++)
         for (int _dc= 0; _dc < dc; _dc++)
@@ -239,8 +242,6 @@ void generate_params()
                     }
             }
 
-    const int col_num = 2;
-    const int col[col_num] = {256, 512};
     // 二维数组分别在global、constant、shared中进行访存
     // 2D global
     for (int gs = 0; gs < global_size_num; gs++)
@@ -389,7 +390,7 @@ void generate_params()
                             }
                         }
                 }
-   
+  */ 
     // 2D shared
     for (int ss = 0; ss < shared_size_num; ss++)
         for (int _dc= 0; _dc < dc; _dc++)
@@ -412,6 +413,8 @@ void generate_params()
                             outfile<<endl<<(c.df)
                             << " Shared:"
                             <<" "<< c.size 
+                            <<" " << c.r
+                            <<" " << c.c
                             <<" " << am_num[an]
                             <<" "<<c.block_size
                             <<" "<< (c.dc)
@@ -460,7 +463,7 @@ void generate_params()
                             }
                         }
                 }
-    
+   /* 
     // Tree Global
     for (int gs = 0; gs < global_size_num; gs++)
         for (int _dc= 0; _dc < dc; _dc++)
@@ -674,7 +677,7 @@ void generate_params()
                         }
                     }
             }
-
+*/
 
     outfile.close();
 }

@@ -5,10 +5,13 @@
 #define DEF_BLOCK_Y   8
 
 // 全局内容的大小必须提前设置，对于不同数据大小的测试只能一次次手动改了
-__constant__ DATA_TYPE constant_data1D[CONSTANT_SIZE];
-__constant__ DATA_TYPE constant_data2D[32][8];
+__constant__ DATA_TYPE constant_data1D[1];
+/*__constant__ DATA_TYPE constant_data1D[CONSTANT_SIZE];*/
+__constant__ DATA_TYPE constant_data2D[1][1];
+/*__constant__ DATA_TYPE constant_data2D[CONSTANT_SIZE/CONSTANT_2D_ROW][CONSTANT_2D_ROW];*/
 // 每个 node 的大小为 12 B，所以在设置大小时一定要注意不能超过 constant memory 的大小
-__constant__ Node constant_treeNodes[128];
+/*__constant__ Node constant_treeNodes[1];*/
+__constant__ Node constant_treeNodes[CONSTANT_SIZE];
 
 // 根据数据组织形式、数据大小和数据内容形式初始化数据
 int Case::initData()
@@ -1218,14 +1221,14 @@ int Case::shared_run()
 
         // 核函数
         if (this->am == am_sequential) {
-            _treeSharedSequentialKer<<<gridsize_1d, blocksize_1d, this->size>>>(d_tree, this->am_num, dev_outTree, copy_num_per_thread);
+            _treeSharedSequentialKer<<<gridsize_1d, blocksize_1d, this->size*sizeof(Node)>>>(d_tree, this->am_num, dev_outTree, copy_num_per_thread);
             if (cudaGetLastError() != cudaSuccess) {
                 cudaFree(dev_outTree);
                 cudaFree(d_tree.nodes);
                 return -3;
             }
         } else if (this->am == am_step) {
-            _treeSharedStepKer<<<gridsize_1d, blocksize_1d, this->size>>>(d_tree, this->step, this->am_num, dev_outTree, copy_num_per_thread);
+            _treeSharedStepKer<<<gridsize_1d, blocksize_1d, this->size*sizeof(Node)>>>(d_tree, this->step, this->am_num, dev_outTree, copy_num_per_thread);
             if (cudaGetLastError() != cudaSuccess) {
                 cudaFree(dev_outTree);
                 cudaFree(d_tree.nodes);
@@ -1249,7 +1252,7 @@ int Case::shared_run()
                 return -3;
             }
 
-            _treeSharedCommonKer<<<gridsize_1d, blocksize_1d, this->size>>>(d_tree, this->am_num, dev_outTree, dev_am_data, copy_num_per_thread);
+            _treeSharedCommonKer<<<gridsize_1d, blocksize_1d, this->size*sizeof(Node)>>>(d_tree, this->am_num, dev_outTree, dev_am_data, copy_num_per_thread);
             if (cudaGetLastError() != cudaSuccess) {
                 cudaFree(dev_outTree);
                 cudaFree(d_tree.nodes);

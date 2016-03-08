@@ -1,17 +1,3 @@
-2 Constant: 512 1 256 0 0
-2 Constant: 512 1 512 0 0
-2 Constant: 512 1 1024 0 0
-2 Constant: 512 2 256 0 0
-2 Constant: 512 2 512 0 0
-2 Constant: 512 2 1024 0 0
-2 Constant: 512 4 256 0 0
-2 Constant: 512 4 512 0 0
-2 Constant: 512 4 1024 0 0
-2 Constant: 512 1 256 0 1 1
-2 Constant: 512 1 256 0 1 2
-2 Constant: 512 1 256 0 1 4
-2 Constant: 512 1 512 0 1 1
-2 Constant: 512 1 512 0 1 2
 2 Shared: 256 1 256 0 0
 2 Shared: 256 1 512 0 0
 2 Shared: 256 1 1024 0 0

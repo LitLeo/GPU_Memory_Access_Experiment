@@ -1,0 +1,942 @@
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_step step=4 runTime=0.129728 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_step step=1 runTime=0.14288 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_step step=2 runTime=0.125824 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_step step=4 runTime=0.12496 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_step step=1 runTime=0.131808 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_step step=2 runTime=0.127872 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_step step=4 runTime=0.133952 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_step step=1 runTime=0.128768 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_step step=2 runTime=0.137824 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_step step=4 runTime=0.129248 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_step step=1 runTime=0.128512 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_step step=2 runTime=0.128256 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_step step=4 runTime=0.136512 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_step step=1 runTime=0.13616 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_step step=2 runTime=0.136032 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_step step=4 runTime=0.137664 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_step step=1 runTime=0.143936 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_step step=2 runTime=0.135744 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_step step=4 runTime=0.137152 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_step step=1 runTime=0.135712 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_step step=2 runTime=0.141504 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_step step=4 runTime=0.144896 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_random runTime=0.231776 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_random runTime=0.21888 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_random runTime=0.220768 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_random runTime=0.226752 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_random runTime=0.22432 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_random runTime=0.230976 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_random runTime=0.244 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_random runTime=0.234784 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_random runTime=0.234624 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_standard_normal runTime=0.23344 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_standard_normal runTime=0.22432 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_standard_normal runTime=0.225024 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_standard_normal runTime=0.22528 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_standard_normal runTime=0.228352 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_standard_normal runTime=0.230592 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_standard_normal runTime=0.234912 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_standard_normal runTime=0.240032 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_standard_normal runTime=0.251264 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_poisson runTime=0.231968 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_poisson runTime=0.222528 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_poisson runTime=0.237376 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_poisson runTime=0.226176 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_poisson runTime=0.225696 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_poisson runTime=0.23024 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_poisson runTime=0.267872 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_poisson runTime=0.251232 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_poisson runTime=0.234688 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_geometric runTime=0.234432 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_geometric runTime=0.222784 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_geometric runTime=0.236768 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_geometric runTime=0.240064 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_geometric runTime=0.2296 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_geometric runTime=0.230528 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_geometric runTime=0.232192 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_geometric runTime=0.248288 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_geometric runTime=0.239264 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_random access_mode=am_exponential runTime=0.221888 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_random access_mode=am_exponential runTime=0.234848 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_random access_mode=am_exponential runTime=0.22416 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_random access_mode=am_exponential runTime=0.239008 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_random access_mode=am_exponential runTime=0.225952 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_random access_mode=am_exponential runTime=0.225824 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_random access_mode=am_exponential runTime=0.234464 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_random access_mode=am_exponential runTime=0.24496 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_random access_mode=am_exponential runTime=0.241408 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_sequential runTime=0.126464 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_sequential runTime=0.129856 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_sequential runTime=0.127392 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_sequential runTime=0.1312 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_sequential runTime=0.131424 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_sequential runTime=0.130944 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_sequential runTime=0.13696 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_sequential runTime=0.144 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_sequential runTime=0.140384 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.135648 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.136096 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.127744 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.13568 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.127712 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.128384 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.132096 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.126784 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.12864 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.132256 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.130528 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.131424 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.131776 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.132608 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.131872 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.131168 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.131008 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.130912 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.138464 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.138144 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.136896 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.139296 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.139264 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.138912 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=1 runTime=0.139392 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=2 runTime=0.143232 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_step step=4 runTime=0.141088 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_random runTime=0.223424 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_random runTime=0.224608 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_random runTime=0.225632 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_random runTime=0.228224 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_random runTime=0.232096 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_random runTime=0.229056 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_random runTime=0.233888 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_random runTime=0.236832 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_random runTime=0.250048 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.22176 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.227552 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.22848 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.227136 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.239072 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.242976 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.241664 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.237696 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_standard_normal runTime=0.235136 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_poisson runTime=0.223968 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_poisson runTime=0.228352 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_poisson runTime=0.236864 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_poisson runTime=0.226976 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_poisson runTime=0.228672 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_poisson runTime=0.243264 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_poisson runTime=0.2368 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_poisson runTime=0.247744 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_poisson runTime=0.237216 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_geometric runTime=0.24672 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_geometric runTime=0.235392 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_geometric runTime=0.225856 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_geometric runTime=0.228416 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_geometric runTime=0.230208 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_geometric runTime=0.229376 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_geometric runTime=0.236096 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_geometric runTime=0.238048 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_geometric runTime=0.234944 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_standard_normal access_mode=am_exponential runTime=0.223296 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_standard_normal access_mode=am_exponential runTime=0.234752 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_standard_normal access_mode=am_exponential runTime=0.224032 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_standard_normal access_mode=am_exponential runTime=0.22832 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_standard_normal access_mode=am_exponential runTime=0.2272 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_standard_normal access_mode=am_exponential runTime=0.227104 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_standard_normal access_mode=am_exponential runTime=0.235904 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_standard_normal access_mode=am_exponential runTime=0.237152 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_standard_normal access_mode=am_exponential runTime=0.237312 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_sequential runTime=0.125824 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_sequential runTime=0.124 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_sequential runTime=0.13184 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_sequential runTime=0.135808 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_sequential runTime=0.136384 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_sequential runTime=0.129632 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_sequential runTime=0.134496 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_sequential runTime=0.146208 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_sequential runTime=0.143424 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_step step=1 runTime=0.125632 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_step step=2 runTime=0.124992 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_step step=4 runTime=0.124256 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_step step=1 runTime=0.133984 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_step step=2 runTime=0.124928 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_step step=4 runTime=0.132864 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_step step=1 runTime=0.132544 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_step step=2 runTime=0.12464 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_step step=4 runTime=0.126336 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_step step=1 runTime=0.12784 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_step step=2 runTime=0.136512 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_step step=4 runTime=0.12832 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_step step=1 runTime=0.129056 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_step step=2 runTime=0.12944 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_step step=4 runTime=0.13504 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_step step=1 runTime=0.129664 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_step step=2 runTime=0.130496 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_step step=4 runTime=0.134752 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_step step=1 runTime=0.14352 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_step step=2 runTime=0.134624 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_step step=4 runTime=0.142592 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_step step=1 runTime=0.138176 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_step step=2 runTime=0.137664 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_step step=4 runTime=0.146688 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_step step=1 runTime=0.14624 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_step step=2 runTime=0.143008 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_step step=4 runTime=0.137376 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_random runTime=0.220448 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_random runTime=0.258592 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_random runTime=0.237216 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_random runTime=0.2376 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_random runTime=0.228288 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_random runTime=0.228192 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_random runTime=0.235232 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_random runTime=0.236288 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_random runTime=0.234112 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_standard_normal runTime=0.221568 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_standard_normal runTime=0.22448 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_standard_normal runTime=0.227232 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_standard_normal runTime=0.227072 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_standard_normal runTime=0.230976 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_standard_normal runTime=0.241376 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_standard_normal runTime=0.246208 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_standard_normal runTime=0.235232 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_standard_normal runTime=0.239168 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_poisson runTime=0.235872 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_poisson runTime=0.244384 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_poisson runTime=0.223232 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_poisson runTime=0.22496 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_poisson runTime=0.22784 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_poisson runTime=0.226656 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_poisson runTime=0.27264 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_poisson runTime=0.234912 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_poisson runTime=0.248096 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_geometric runTime=0.22608 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_geometric runTime=0.22256 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_geometric runTime=0.231776 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_geometric runTime=0.263712 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_geometric runTime=0.228288 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_geometric runTime=0.22624 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_geometric runTime=0.233952 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_geometric runTime=0.235328 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_geometric runTime=0.242176 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_poisson access_mode=am_exponential runTime=0.224128 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_poisson access_mode=am_exponential runTime=0.225088 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_poisson access_mode=am_exponential runTime=0.22368 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_poisson access_mode=am_exponential runTime=0.227552 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_poisson access_mode=am_exponential runTime=0.23984 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_poisson access_mode=am_exponential runTime=0.276224 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_poisson access_mode=am_exponential runTime=0.231424 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_poisson access_mode=am_exponential runTime=0.23232 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_poisson access_mode=am_exponential runTime=0.245152 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_sequential runTime=0.131904 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_sequential runTime=0.132576 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_sequential runTime=0.129184 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_sequential runTime=0.134048 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_sequential runTime=0.128192 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_sequential runTime=0.12976 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_sequential runTime=0.137824 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_sequential runTime=0.136544 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_sequential runTime=0.135488 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_step step=1 runTime=0.123776 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_step step=2 runTime=0.123936 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_step step=4 runTime=0.129248 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_step step=1 runTime=0.14864 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_step step=2 runTime=0.12544 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_step step=4 runTime=0.123296 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_step step=1 runTime=0.127232 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_step step=2 runTime=0.159488 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_step step=4 runTime=0.1248 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_step step=1 runTime=0.127488 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_step step=2 runTime=0.128576 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_step step=4 runTime=0.131584 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_step step=1 runTime=0.127776 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_step step=2 runTime=0.150048 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_step step=4 runTime=0.128256 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_step step=1 runTime=0.135584 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_step step=2 runTime=0.137472 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_step step=4 runTime=0.12976 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_step step=1 runTime=0.141024 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_step step=2 runTime=0.176448 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_step step=4 runTime=0.134912 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_step step=1 runTime=0.13632 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_step step=2 runTime=0.13584 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_step step=4 runTime=0.137216 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_step step=1 runTime=0.137056 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_step step=2 runTime=0.143744 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_step step=4 runTime=0.13648 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_random runTime=0.221568 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_random runTime=0.257728 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_random runTime=0.234784 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_random runTime=0.26176 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_random runTime=0.225152 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_random runTime=0.22736 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_random runTime=0.24688 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_random runTime=0.268128 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_random runTime=0.232544 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_standard_normal runTime=0.222272 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_standard_normal runTime=0.224096 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_standard_normal runTime=0.237344 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_standard_normal runTime=0.227136 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_standard_normal runTime=0.22896 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_standard_normal runTime=0.2392 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_standard_normal runTime=0.237952 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_standard_normal runTime=0.237376 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_standard_normal runTime=0.252096 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_poisson runTime=0.2224 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_poisson runTime=0.224192 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_poisson runTime=0.222976 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_poisson runTime=0.221824 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_poisson runTime=0.227136 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_poisson runTime=0.225472 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_poisson runTime=0.233088 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_poisson runTime=0.25184 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_poisson runTime=0.238784 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_geometric runTime=0.219968 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_geometric runTime=0.221856 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_geometric runTime=0.232768 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_geometric runTime=0.23568 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_geometric runTime=0.224448 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_geometric runTime=0.226368 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_geometric runTime=0.235392 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_geometric runTime=0.234176 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_geometric runTime=0.232544 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_uniform access_mode=am_exponential runTime=0.256352 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_uniform access_mode=am_exponential runTime=0.224 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_uniform access_mode=am_exponential runTime=0.231424 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_uniform access_mode=am_exponential runTime=0.242336 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_uniform access_mode=am_exponential runTime=0.24048 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_uniform access_mode=am_exponential runTime=0.22752 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_uniform access_mode=am_exponential runTime=0.242912 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_uniform access_mode=am_exponential runTime=0.233632 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_uniform access_mode=am_exponential runTime=0.241184 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_sequential runTime=0.123904 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_sequential runTime=0.129568 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_sequential runTime=0.126304 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_sequential runTime=0.13456 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_sequential runTime=0.128736 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_sequential runTime=0.128256 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_sequential runTime=0.135008 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_sequential runTime=0.13792 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_sequential runTime=0.13616 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_step step=1 runTime=0.131872 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_step step=2 runTime=0.124448 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_step step=4 runTime=0.1304 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_step step=1 runTime=0.131776 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_step step=2 runTime=0.138816 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_step step=4 runTime=0.131936 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_step step=1 runTime=0.124736 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_step step=2 runTime=0.128352 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_step step=4 runTime=0.129792 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_step step=1 runTime=0.128256 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_step step=2 runTime=0.133376 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_step step=4 runTime=0.133888 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_step step=1 runTime=0.128544 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_step step=2 runTime=0.138368 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_step step=4 runTime=0.128448 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_step step=1 runTime=0.136896 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_step step=2 runTime=0.12832 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_step step=4 runTime=0.133824 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_step step=1 runTime=0.134944 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_step step=2 runTime=0.134624 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_step step=4 runTime=0.142272 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_step step=1 runTime=0.14336 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_step step=2 runTime=0.138048 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_step step=4 runTime=0.147424 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_step step=1 runTime=0.136544 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_step step=2 runTime=0.13664 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_step step=4 runTime=0.144416 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_random runTime=0.23632 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_random runTime=0.274368 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_random runTime=0.231712 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_random runTime=0.23392 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_random runTime=0.234336 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_random runTime=0.235456 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_random runTime=0.240768 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_random runTime=0.239552 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_random runTime=0.234016 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_standard_normal runTime=0.222624 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_standard_normal runTime=0.2248 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_standard_normal runTime=0.23616 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_standard_normal runTime=0.235456 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_standard_normal runTime=0.230304 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_standard_normal runTime=0.230592 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_standard_normal runTime=0.247648 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_standard_normal runTime=0.235392 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_standard_normal runTime=0.237248 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_poisson runTime=0.229248 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_poisson runTime=0.230592 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_poisson runTime=0.231264 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_poisson runTime=0.225408 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_poisson runTime=0.234752 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_poisson runTime=0.226912 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_poisson runTime=0.232736 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_poisson runTime=0.234592 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_poisson runTime=0.245248 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_geometric runTime=0.226176 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_geometric runTime=0.219456 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_geometric runTime=0.2208 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_geometric runTime=0.22672 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_geometric runTime=0.22528 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_geometric runTime=0.234208 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_geometric runTime=0.235616 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_geometric runTime=0.251552 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_geometric runTime=0.234816 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_geometric access_mode=am_exponential runTime=0.222624 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_geometric access_mode=am_exponential runTime=0.223392 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_geometric access_mode=am_exponential runTime=0.227872 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_geometric access_mode=am_exponential runTime=0.224256 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_geometric access_mode=am_exponential runTime=0.23056 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_geometric access_mode=am_exponential runTime=0.25504 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_geometric access_mode=am_exponential runTime=0.242752 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_geometric access_mode=am_exponential runTime=0.23536 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_geometric access_mode=am_exponential runTime=0.234912 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_sequential runTime=0.124192 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_sequential runTime=0.125216 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_sequential runTime=0.124736 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_sequential runTime=0.128224 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_sequential runTime=0.1296 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_sequential runTime=0.1288 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_sequential runTime=0.134912 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_sequential runTime=0.137056 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_sequential runTime=0.142304 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_step step=1 runTime=0.126368 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_step step=2 runTime=0.130592 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_step step=4 runTime=0.12992 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_step step=1 runTime=0.134176 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_step step=2 runTime=0.135232 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_step step=4 runTime=0.127104 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_step step=1 runTime=0.128416 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_step step=2 runTime=0.12576 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_step step=4 runTime=0.133792 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_step step=1 runTime=0.134976 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_step step=2 runTime=0.127776 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_step step=4 runTime=0.129152 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_step step=1 runTime=0.128864 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_step step=2 runTime=0.128992 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_step step=4 runTime=0.135552 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_step step=1 runTime=0.129376 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_step step=2 runTime=0.131424 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_step step=4 runTime=0.13248 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_step step=1 runTime=0.13728 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_step step=2 runTime=0.160128 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_step step=4 runTime=0.145408 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_step step=1 runTime=0.14496 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_step step=2 runTime=0.138112 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_step step=4 runTime=0.137376 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_step step=1 runTime=0.137024 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_step step=2 runTime=0.137952 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_step step=4 runTime=0.144768 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_random runTime=0.222304 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_random runTime=0.223456 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_random runTime=0.235232 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_random runTime=0.2272 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_random runTime=0.227904 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_random runTime=0.225888 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_random runTime=0.244896 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_random runTime=0.23408 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_random runTime=0.249664 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_standard_normal runTime=0.222976 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_standard_normal runTime=0.223168 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_standard_normal runTime=0.233216 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_standard_normal runTime=0.226368 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_standard_normal runTime=0.228992 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_standard_normal runTime=0.22992 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_standard_normal runTime=0.234592 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_standard_normal runTime=0.239424 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_standard_normal runTime=0.234464 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_poisson runTime=0.233984 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_poisson runTime=0.268384 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_poisson runTime=0.222976 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_poisson runTime=0.232992 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_poisson runTime=0.227776 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_poisson runTime=0.22784 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_poisson runTime=0.234048 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_poisson runTime=0.238304 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_poisson runTime=0.234528 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_geometric runTime=0.229984 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_geometric runTime=0.233984 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_geometric runTime=0.23696 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_geometric runTime=0.226048 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_geometric runTime=0.22464 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_geometric runTime=0.2272 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_geometric runTime=0.2328 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_geometric runTime=0.250784 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=1024 data_content=dc_exponential access_mode=am_geometric runTime=0.236768 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=256 data_content=dc_exponential access_mode=am_exponential runTime=0.23152 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=512 data_content=dc_exponential access_mode=am_exponential runTime=0.221152 ms
+
+df_tree Constant: size=512 access_num_per_thread=1 block_size=1024 data_content=dc_exponential access_mode=am_exponential runTime=0.23952 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=256 data_content=dc_exponential access_mode=am_exponential runTime=0.22576 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=512 data_content=dc_exponential access_mode=am_exponential runTime=0.231872 ms
+
+df_tree Constant: size=512 access_num_per_thread=2 block_size=1024 data_content=dc_exponential access_mode=am_exponential runTime=0.235072 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=256 data_content=dc_exponential access_mode=am_exponential runTime=0.232224 ms
+
+df_tree Constant: size=512 access_num_per_thread=4 block_size=512 data_content=dc_exponential access_mode=am_exponential runTime=0.234144 ms
