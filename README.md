@@ -28,3 +28,8 @@ EXAMPLE
 注：
 （1）命令中的step选项，只要在access_mode为am_step时才有意义。
 （2）可通过修改Case类的printf成员函数来修改输出格式
+
+result 文件夹内文件说明
+params_1d_global.out  表示  params文件夹中params_1d_global.txt参数文件的运行结果
+params_1d_constant_512.out  表示  params文件夹中params_1d_constant.txt参数文件的运行结果，后面512的参数代表常量内存的大小是512，因为常量内存大小需要每次手动设置
+使用时将所有结果文件汇总到一个文件中，再执行python out_process.py
