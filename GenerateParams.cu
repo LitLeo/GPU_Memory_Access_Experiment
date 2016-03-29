@@ -682,4 +682,94 @@ void generate_params()
     outfile.close();
 }
 
+/*
+一维数组，内容为随机分布，访问方式为随机、正态，内存位置为Global和Shared。
+shared memory一个线程拷贝一个数据，一个线程访问多个数据，1,2,4,6,8
+数据大小：1k，10k，40k
 
+探究：一个线程访问多少数据才能掩盖数据从全局内存拷贝到共享内存的时间消耗
+*/ 
+void generate_params1()
+{
+    char* filename = "params.txt";
+    remove(filename);
+    ofstream outfile("params.txt");
+
+    // global 测试数据大小
+    const int global_size_num = 4; // 数组大小;
+    const int global_size[global_size_num] = {1024, 4096, 10240, 40960};
+
+    // constant 和 
+    // const int con_size_num = 4;
+    // const int con_size[con_size_num] = {512, 1024, 4096, 10240};
+    // shared 测试数据大小,这里的大小设置受 DATA_TYPE 的影响。
+    const int shared_size_num = 4;
+    const int shared_size[shared_size_num] = {1024, 4096, 10240, 40960};
+    // block size
+    const int block_size_num = 4;
+    const int block_size[block_size_num] = {128, 256, 512, 1024};
+    // 六种数据内部分布，具体见common.h
+    const int dc = 6;
+    // 七种访问数据类型，具体见common.h
+    const int am = 7;
+    // 每个线程访问多少数据
+    const int am_num_num = 8;
+    const int am_num[am_num_num] = {1, 2, 4, 6, 8, 12, 16, 24};
+
+    // 1D Global
+    for (int gs = 0; gs < global_size_num; gs++)
+        // for (int _dc= 0; _dc < dc; _dc++)
+        for (int _am = 2; _am < 4; _am++) {
+            Case c;
+            c.df = df_1D;
+            c.size = global_size[gs];
+            // 内部分布为随机
+            c.dc = dc_random;
+            c.am = (enum access_mode)_am;
+            // c.initData();
+
+            for (int bs= 0; bs < block_size_num; bs++)
+                for (int an = 0; an < am_num_num; an++) {   
+                    c.thread_num = c.size;         // 线程数与数据量大小相同
+                    c.block_size = block_size[bs];   
+                    c.am_num = am_num[an];
+
+                    outfile<<endl<<(c.df)
+                    << " Global:"
+                    <<" "<< c.size 
+                    <<" " << am_num[an]
+                    <<" "<<c.block_size
+                    <<" "<< (c.dc)
+                    <<" "<<(c.am);
+                }
+        }
+
+    // 1D shared
+    for (int ss = 0; ss < shared_size_num; ss++)
+        // for (int _dc= 0; _dc < dc; _dc++)
+        for (int _am = 2; _am < 4; _am++) {
+            Case c;
+            c.df = df_1D;
+            c.size = shared_size[ss];
+            c.dc = dc_random;
+            c.am = (enum access_mode)_am;
+            // c.initData();
+
+            for (int bs= 0; bs < block_size_num; bs++)
+                for (int an = 0; an < am_num_num; an++) {   
+                    c.thread_num = c.size;         // 线程数与数据量大小相同
+                    c.block_size = block_size[bs];   
+                    c.am_num = am_num[an];
+
+                    outfile<<endl<<(c.df)
+                    << " Shared:"
+                    <<" "<< c.size 
+                    <<" " << am_num[an]
+                    <<" "<<c.block_size
+                    <<" "<< (c.dc)
+                    <<" "<<(c.am);
+                }
+        }
+
+    outfile.close();
+}

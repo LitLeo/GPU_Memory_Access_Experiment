@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    /*generate_params();*/
+    generate_params1();
     /*return 0;*/
 
     Case c;

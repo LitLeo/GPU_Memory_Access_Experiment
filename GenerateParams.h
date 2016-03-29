@@ -10,6 +10,7 @@ using namespace std;
 #define GENERATE_PARAMS   // 因为使用了warmup函数，所以就不需要循环多次了
 
 void generate_params();
+void generate_params1();
  
 
 #endif
