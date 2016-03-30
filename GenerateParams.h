@@ -11,6 +11,7 @@ using namespace std;
 
 void generate_params();
 void generate_params1();
+void generate_params2();
  
 
 #endif

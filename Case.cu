@@ -1,4 +1,6 @@
 #include "Case.h"
+#include <stdio.h>
+#include <string>
 
 // 设置二维默认线程数
 #define DEF_BLOCK_X  32
@@ -12,6 +14,15 @@ __constant__ DATA_TYPE constant_data2D[1][1];
 // 每个 node 的大小为 12 B，所以在设置大小时一定要注意不能超过 constant memory 的大小
 /*__constant__ Node constant_treeNodes[1];*/
 __constant__ Node constant_treeNodes[CONSTANT_SIZE];
+
+void print_start_end_time(int *h_start_end_time, int size, char* remark)
+{
+    for (int i = 0; i < size; i++) {
+        printf("%s ", remark);
+        printf("thread index=%d, start_time=%d, end_time=%d\n", 
+            i, h_start_end_time[i*2], h_start_end_time[i*2+1]);
+    }
+}
 
 // 根据数据组织形式、数据大小和数据内容形式初始化数据
 int Case::initData()
@@ -194,8 +205,27 @@ static __global__ void _d1DGloalCommonKer(DATA_TYPE *data1D, DATA_TYPE* dev_out,
     int index = blockIdx.x * blockDim.x + threadIdx.x;
     if (index >= size)
         return ;
+
+    // printf("thread_index=%d, start_time=%d\n", index, clock());
     for (int i = 0; i < am_num; ++i)
         dev_out[i] += data1D[am_data[(index + i) % size]];
+    // printf("thread_index=%d, end_time=%d\n", index, clock());
+}
+
+static __global__ void _d1DGloalCommonKer1(DATA_TYPE *data1D, DATA_TYPE* dev_out, int am_num, 
+                                          int* am_data, int size, int* d_start_end_time)
+{
+    // 获得线程索引
+    int index = blockIdx.x * blockDim.x + threadIdx.x;
+    if (index >= size)
+        return ;
+    clock_t start_time = clock();
+    for (int i = 0; i < am_num; ++i)
+        dev_out[i] += data1D[am_data[(index + i) % size]];
+    clock_t end_time = clock();
+
+    d_start_end_time[index * 2] = start_time;
+    d_start_end_time[index * 2 + 1] = end_time;
 }
 
 // 共享内存
@@ -222,8 +252,10 @@ static __global__ void _d1DSharedSequentialKer(DATA_TYPE *data1D, DATA_TYPE* dev
     }
     __syncthreads();
 
+    // printf("thread_index=%d, start_time=%d\n", index, clock());
     for (int i = 0; i < am_num; ++i)
         dev_out[index] += sharedData[(index + i) % size]; 
+    // printf("thread_index=%d, end_time=%d\n", index, clock());
 }
 static __global__ void _d1DSharedStepKer(DATA_TYPE *data1D, DATA_TYPE* dev_out, int step, int am_num,
                                          int size, int copy_num_per_thread)
@@ -271,6 +303,63 @@ static __global__ void _d1DSharedCommonKer(DATA_TYPE *data1D, DATA_TYPE* dev_out
     for (int i = 0; i < am_num; ++i)
         dev_out[index] += sharedData[am_data[(index + i)%size] % size];
 }
+
+static __global__ void _d1DSharedCommonKer1_0(DATA_TYPE *data1D, DATA_TYPE* dev_out, int am_num, int size, int* am_data,
+                                           int copy_num_per_thread, int *d_start_end_time)
+{
+    // 获得线程索引
+    int index = blockIdx.x * blockDim.x + threadIdx.x;
+
+    if (index >= size)
+        return ;
+
+    // 将数据拷贝到共享内存中
+    extern __shared__ DATA_TYPE sharedData[];
+    // 一个线程拷贝 (data_size + T - 1) / T 个数据
+    for (int i = 0; i < copy_num_per_thread; ++i) {
+        // 计算要拷贝数据的下标
+        int copt_index = index * copy_num_per_thread + i;
+        if (copt_index < size)
+            sharedData[copt_index] = data1D[copt_index];
+    }
+    __syncthreads();
+    clock_t start_time = clock();
+    for (int i = 0; i < am_num; ++i)
+        dev_out[index] += sharedData[am_data[(index + i)%size] % size];
+    clock_t end_time = clock();
+    d_start_end_time[index * 2] = start_time;
+    d_start_end_time[index * 2 + 1] = end_time;
+}
+
+static __global__ void _d1DSharedCommonKer1_1(DATA_TYPE *data1D, DATA_TYPE* dev_out, int am_num, int size, int* am_data,
+                                           int copy_num_per_thread, int *d_start_end_time)
+{
+    // 获得线程索引
+    int index = blockIdx.x * blockDim.x + threadIdx.x;
+
+    if (index >= size)
+        return ;
+
+    // 将数据拷贝到共享内存中
+    extern __shared__ DATA_TYPE sharedData[];
+    clock_t start_time = clock();
+    // 一个线程拷贝 (data_size + T - 1) / T 个数据
+    for (int i = 0; i < copy_num_per_thread; ++i) {
+        // 计算要拷贝数据的下标
+        int copt_index = index * copy_num_per_thread + i;
+        if (copt_index < size)
+            sharedData[copt_index] = data1D[copt_index];
+    }
+    clock_t end_time = clock();
+    __syncthreads();
+    
+    for (int i = 0; i < am_num; ++i)
+        dev_out[index] += sharedData[am_data[(index + i)%size] % size];
+    
+    d_start_end_time[index * 2] = start_time;
+    d_start_end_time[index * 2 + 1] = end_time;
+}
+
 
 // 常量内存
 // constant_data1D
@@ -834,13 +923,27 @@ int Case::global_run()
             }
             // curandDestroyGenerator(gen);
 
-            _d1DGloalCommonKer<<<gridsize_1d, blocksize_1d>>>(d_data1D, dev_out1D, this->am_num, dev_am_data, this->size);
+            // _d1DGloalCommonKer<<<gridsize_1d, blocksize_1d>>>(d_data1D, dev_out1D, this->am_num, dev_am_data, this->size);
+            // if (cudaGetLastError() != cudaSuccess) {
+            //     cudaFree(d_data1D);
+            //     cudaFree(dev_out1D);
+            //     cudaFree(dev_am_data);
+            //     return -3;
+            // }
+            int *h_start_end_time = new int[this->size * 2];
+            int *d_start_end_time;
+            cudaMalloc(&d_start_end_time, sizeof(int) * this->size * 2);
+            _d1DGloalCommonKer1<<<gridsize_1d, blocksize_1d>>>(
+                d_data1D, dev_out1D, this->am_num, dev_am_data, this->size, d_start_end_time);
             if (cudaGetLastError() != cudaSuccess) {
                 cudaFree(d_data1D);
                 cudaFree(dev_out1D);
                 cudaFree(dev_am_data);
                 return -3;
             }
+
+            cudaMemcpy(h_start_end_time, d_start_end_time, sizeof(int) * this->size * 2, cudaMemcpyDeviceToHost);
+            print_start_end_time(h_start_end_time, this->size, "global access");
         }
         break;
     }
@@ -1124,6 +1227,37 @@ int Case::shared_run()
                 cudaFree(dev_am_data);
                 return -3;
             }
+
+            int *h_start_end_time = new int[this->size * 2];
+            int *d_start_end_time;
+            cudaMalloc(&d_start_end_time, sizeof(int) * this->size * 2);
+            _d1DSharedCommonKer1_0<<<gridsize_1d, blocksize_1d, this->size>>>
+                               (d_data1D, dev_out1D, this->am_num, this->size, dev_am_data, 
+                                copy_num_per_thread, d_start_end_time);
+            if (cudaGetLastError() != cudaSuccess) {
+                cudaFree(d_data1D);
+                cudaFree(dev_out1D);
+                cudaFree(dev_am_data);
+                return -3;
+            }
+
+            cudaMemcpy(h_start_end_time, d_start_end_time, sizeof(int) * this->size * 2, cudaMemcpyDeviceToHost);
+            print_start_end_time(h_start_end_time, this->size, "shared access");
+
+            cudaMemset(d_start_end_time, 0, sizeof(int) * this->size * 2);
+
+            _d1DSharedCommonKer1_1<<<gridsize_1d, blocksize_1d, this->size>>>
+                               (d_data1D, dev_out1D, this->am_num, this->size, dev_am_data, 
+                                copy_num_per_thread, d_start_end_time);
+            if (cudaGetLastError() != cudaSuccess) {
+                cudaFree(d_data1D);
+                cudaFree(dev_out1D);
+                cudaFree(dev_am_data);
+                return -3;
+            }
+
+            cudaMemcpy(h_start_end_time, d_start_end_time, sizeof(int) * this->size * 2, cudaMemcpyDeviceToHost);
+            print_start_end_time(h_start_end_time, this->size, "shared copy");
         }
         break;
     }

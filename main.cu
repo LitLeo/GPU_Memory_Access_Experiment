@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    generate_params1();
+    /*generate_params1();*/
     /*return 0;*/
 
     Case c;
@@ -72,9 +72,8 @@ int main(int argc, char const *argv[])
     cudaEventSynchronize(stop);
     cudaEventElapsedTime(&runTime, start, stop);
 
-    
     cout << " runTime=" << (runTime)  << " ms" << endl;
-    
+    cudaDeviceReset();    
 
     return 0;
 }
